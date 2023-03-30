@@ -1,0 +1,42 @@
+*{
+    font-size:50px;
+    font-family: 'Delicious Handrawn', cursive;
+}
+h1{
+    background-color: antiquewhite;
+    color:blueviolet;
+    font-size:60px;
+    /* font-family:50px ; */
+}
+.p1{
+    background-color: aqua;
+    color:green;
+    /* font-size:30px; */
+    font-style:italic;
+    /* font-family:30px ; */
+}
+.p2{
+    background-color: rgb(255, 123, 0);
+    color:rgba(50, 155, 38, 0.747);
+    /* font-size:30px; */
+    font-style:italic;
+}
+.p3{
+    background-color: rgb(30, 111, 136);
+    color:rgb(128, 0, 68);
+    font-size:30px;
+    font-style:italic;
+}
+.p3:hover{
+    background-color: blue;
+    color:azure;
+
+}
+img{
+    width:800px;
+    height:600px;
+
+}
+img[alt]{
+    color:goldenrod;
+}
