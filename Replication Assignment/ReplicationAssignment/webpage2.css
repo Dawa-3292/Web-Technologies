@@ -1,0 +1,46 @@
+
+.parent{
+    width: 100%;
+    height: 800px;
+}
+.div1{
+    width: 60%;
+    height: 300px;
+    background-color:rgb(109,151,115) ;
+    float: left;
+
+}
+h1{
+    font-family: Arial;
+    color: white;
+    margin-left: 150px;
+    font-style: normal;
+    font-size: 60px;
+    background-color:rgb(109,151,115);
+}
+.div2{
+    width: 40%;
+    height: 300px;
+    float: right;
+}
+.div3{
+    width: 100%;
+    background-color:rgb(109,151,115) ;
+
+}
+p{
+    font-family: Arial;
+    margin-top: 45px;
+    color:white;
+    font-size: 25px;
+    background-color: rgb(109,151,115);
+
+}
+img{
+    width: 80%;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    height: 450px;
+    background-color: rgb(109,151,115);
+    align-content: center;
+}
