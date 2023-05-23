@@ -1,0 +1,83 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(backg.jpg);
+    width: auto;
+
+}
+.parent{
+    height: fit-content;
+    width: 100%;
+    
+
+}
+h1{
+    width: 100%;
+    margin-left: 15%;
+    font-size: 70px;
+    font-weight: bolder;
+    color: aliceblue;
+
+
+}
+.daughter{
+    float: right;
+    width: 30%;
+    align-items: center;
+
+}
+img{
+    background-color: #74BF44;
+    width: 400px;
+    border-radius: 50%;
+    height: 400px;
+    align-items: center;
+}
+.son{
+    float: left;
+    width: 70%;
+    color: aliceblue;
+    text-align: center;
+}
+span{
+    font-size: large;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    position: absolute;
+}
+h2{
+    color: aliceblue;
+    margin-right: 20%;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    border-radius: 50%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(box.jpg);
+    margin-left: 0%;
+}
+.box >img{
+    
+    width:100px;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 15%;
+    border-radius: 0%;
+    background-color: none;
+
+
+}
+.box >a{
+    text-align: center;
+    margin-left: 25%;
+}
+button{
+    border-radius: 5rem;
+    background-color: #74BF44;
+    margin-left: 0%;
+    padding: 15px;
+}
+

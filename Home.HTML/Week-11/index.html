@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a =10;
+        {
+            let a=12;
+            console.log(a);
+        }
+        console.log(a);
+        const dictionary ={
+           Dawa :"Moon",
+            Criminal:"Killer",
+            slow:"Tedious"
+        }
+        console.log(dictionary.Dawa);
+        const n = prompt("Whats your name:");
+        console.log(n);
+        age1=prompt("Whats your age");
+        if(age1>0 && age1<=12){
+            alert("infant");
+        }else if(age1>12 && age1<=19){
+            alert("Teenage");
+        }else if(age1>19 && age1<=50){
+            alert("adult");
+        }else if(age1>50){
+            alert("old");
+        }else{
+            alert("invalid");
+        }
+        for (i=0;i<=100;i++){
+            console.log(i);
+        }
+        let total =0;
+        function sum(a,b){
+            total=a+b;
+            return total;
+        }
+        console.log(sum(2,3));
+        
+        function area_of_circle(r){
+            pi=Math.PI;
+            area=pi*r**2;
+            return area;
+        }
+        radius=prompt("Enter a  radius:");
+        console.log(area_of_circle(radius));
+
+
+    </script>
+    
+</body>
+</html>
