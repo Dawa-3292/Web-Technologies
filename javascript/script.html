@@ -1,0 +1,22 @@
+<script>
+var arr=[1,2,3,4,5];
+function add(num){
+    return num+2;
+}
+var newArr=arr.map(add)
+console.log(newArr)
+
+const ages=[32,33,16,40];
+const result=ages.filter(checkAdult)
+function checkAdult(age){
+    return age>=18;
+}
+console.log(result)
+
+const num=[10,11,12,13,14,15];
+const even=num.filter(evennum);
+function evennum(nums){
+    return nums%2==0;
+}
+console.log(even)
+</script>

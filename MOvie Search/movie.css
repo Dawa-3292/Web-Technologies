@@ -1,0 +1,152 @@
+header{
+    width: 100%;
+    border-radius: 15px;
+}
+body{
+    background-color: #383933;
+    font-family: sans-serif;
+}
+form.button.input{
+    float: right;
+    width: 25%;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+p{
+    font-size: 0.9rem;
+}
+.movies{
+    background-color: #383933;
+    background-size: cover;
+    margin: auto;
+    width: 900px;
+    display: flex;
+    height: 500px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    size:auto;
+}
+.movies.Poster{
+    float: left;
+    background-color: white;
+    margin-right: 5rem;
+    border-style: #f1f1f1;
+    margin-top: 1rem;
+} 
+ .information{
+    float: right;
+    margin-left: 2rem;
+    color: #f1f1f1;
+} 
+.information h2{
+    text-align: center;
+    font-size:xx-large;
+}
+.Rate{
+    padding:3px;
+    border-radius: 10px;
+    border: 2px solid white;
+    width: fit-content;
+    background-color: rgb(86, 86, 86);
+    cursor: pointer;
+}   
+.Rate h4{
+    display: inline-block;
+    color: #E7B10A;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+.information.Rate p{
+    padding: 0;
+}
+h1{
+    color: white;
+    float: left;
+    width: 75%;
+    padding: 0%;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+span{
+    color: #CD1818;
+}
+input{
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 17px;
+    background: #f1f1f1;
+    width: auto;
+    
+}
+button{
+    width: auto;
+    padding: 5px;
+    background-color: #CD1818;
+    font-size: 17px;
+    border: 1px solid#454545;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+button:hover{
+    background-color: burlywood;
+    color:#1B6B93;
+}
+ .genre h3,p{
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.casts h3,p{
+    display: inline-block;
+}
+.time h3,p{
+    display: inline-block;
+}
+.country h3,p{
+    display: inline-block;
+}
+h3{
+    margin-bottom: 0.1rem;
+}
+#container{
+    display: flex;
+    position: absolute;
+    flex-wrap:wrap;
+    width: fit-content;
+}
+.search-item-thumbnail img{
+    width: 250px;
+    background-color: white;
+    height: 250px;
+    object-fit: cover;
+    padding: 2rem;
+    border: 2px solid #CD1818 ;
+    margin: 1rem;
+    margin-bottom: 0px;
+    border-radius: 50px;
+}
+.search-item-thumbnail img:hover{
+    transform: scale(1.1);
+    position: relative;
+}
+.info{
+    text-align: center;
+    width: 315px;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 15%;
+    height: 2rem;
+    position: relative;
+
+}
+.info h2{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #CD1818;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding:5px;
+}

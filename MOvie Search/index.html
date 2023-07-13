@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torrent</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="movie.css">
+</head>
+<body>
+    <header class="item">
+        <h1>Movie<span>Bits</span>.</h1>
+        
+        <input type="search" id="search" placeholder="Search" >
+        <button id="myBtn">Search</button>
+    </header>
+    <div class="movies">
+        <div class="Poster">
+            <img id="poster" alt="poster of movie.">
+        </div>
+        <div class="information">
+            <h2 id="title"></h2>
+            <div class="Rate">
+                <h4>IMDB:</h4><h4 id="rating"></h4>
+            </div>
+            <h3 id="view">Overview:</h3>
+            <p id="plot"></p>           
+            <div class="genre">
+                <h3>Genre:</h3><p id="genre"></p>
+            </div>            
+            <div class="casts">
+                <h3>Casts:</h3><p id="actors"></p>
+            </div>           
+            <div class="time">
+                <h3>Duration:</h3><p id="time"></p>
+            </div>
+            <div class="country">
+                <h3>Country:</h3><p id="country"></p>
+            </div>
+        </div>
+        
+    </div>
+    <div id="container" >
+    </div>
+    <p id="error-msg"></p>
+    <script src="movie.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+.main{
+    width: 90%;
+    max-width: 600px;
+    background: linear-gradient(120deg,#00feba,#5b548a);
+    padding: 50px 40px;
+    border-radius: 20px;
+    margin: 10px auto 0;
+}
+.navbar{
+    display: inline;
+}
+a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    float: left;
+}
+.search{
+    display:inline-flex;
+    float: right;
+}
+input{
+    padding: 5px 25px;
+    border: 0;
+    outline: 0;
+    background:#ebfffc;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+button{
+    border-radius: 50%;
+    cursor: pointer;
+}
+.weather{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.maininfo{
+    width: 50%;
+    float: left;
+}
+.weather-icon{
+    width: 300px;
+    height: 300px;
+}
+.weatherinfo{
+    padding-left: 10rem;
+    width: 50%;
+    float: right;
+}
+.Humidity{
+    margin: 1rem;
+}
+#humeimg{
+    width: 50px;
+    height: 50px;
+}
+.humdetail{
+    font-family: sans-serif;
+}
+
+.Wind{
+    margin: 1rem;
+}
+#windimg{
+    width: 50px;
+    height: 50px;
+}
+.winddetail{
+    font-family: sans-serif;
+}
+.pressure{
+    margin: 1rem;
+
+}
+#pressureimg{
+    width: 50px;
+    height: 50px; 
+}
+.pressdetail{
+    font-family: sans-serif;
+}

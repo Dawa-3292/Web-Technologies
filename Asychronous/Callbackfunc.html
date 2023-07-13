@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      var name=prompt("Enter your name");
+        var greeting=(name)=>{
+            alert("hello"+name)
+        }
+        var processUserInput=(callback)=>{
+            setTimeout(()=>{
+                
+                callback(name)
+            },5000);
+        }
+        processUserInput(greeting)
+
+        var promise=new Promise(function(resolve,reject){
+            setTimeout(function(){
+                const x='Dawa'
+                const y= name;
+                console.log(y)
+                if(x===y){
+                    resolve();
+                }else{
+                    reject();
+                }   
+            },5000)
+        });
+        fetch('https://dummyjson.com/products/1')
+            .then(function(response){
+                console.log(response.json())
+            })
+            .catch(function(){
+                console.log("some error occured")
+            })
+
+    </script>
+    
+</body>
+</html>
