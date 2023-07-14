@@ -1,13 +1,22 @@
 .main{
     width: 90%;
     max-width: 600px;
-    background: linear-gradient(120deg,#00feba,#5b548a);
+    background-image: linear-gradient(120deg,#00feba,#5b548a);
     padding: 50px 40px;
     border-radius: 20px;
     margin: 10px auto 0;
 }
 .navbar{
     display: inline;
+}
+input{
+    font-size: large;
+}
+h1,h2,h3{
+    font-family: sans-serif;
+}
+#cityname{
+    font-size: xx-large;
 }
 a{
     width: 50px;
@@ -23,17 +32,26 @@ input{
     padding: 5px 25px;
     border: 0;
     outline: 0;
-    background:#ebfffc;
+    background: linear-gradient(120deg,#00feba,#5b548a);
+    border: 2px solid white;
+    color: white;
     width: 200px;
     height: 30px;
     border-radius: 20px;
     justify-content: space-between;
 }
 button{
-    border-radius: 50%;
+    border-radius: 40%;
     cursor: pointer;
+    color: white;
+    background-color: #52648E;
+} 
+#daydate{
+    font-family: sans-serif;
+    font-size: large;
 }
 .weather{
+    color: #f1f1f1;
     display: inline-flex;
     justify-content: space-between;
 }
@@ -51,34 +69,64 @@ button{
     float: right;
 }
 .Humidity{
+    border: 4px solid ;
     margin: 1rem;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+.Humidity:hover{
+    transform: scale(1.2);
+    position: relative;
 }
 #humeimg{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
 .humdetail{
     font-family: sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    font-size: large;
 }
 
 .Wind{
+    border: 4px solid white;
     margin: 1rem;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+.Wind:hover{
+    transform: scale(1.2);
+    position: relative;
 }
 #windimg{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
 .winddetail{
     font-family: sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    font-size: large;
 }
 .pressure{
+    border: 4px solid white;
     margin: 1rem;
+    border-radius: 20px;
+    opacity: 0.8;
 
 }
+.pressure:hover{
+    transform: scale(1.2);
+    position: relative;
+}
 #pressureimg{
-    width: 50px;
-    height: 50px; 
+    width: 60px;
+    height: 60px; 
 }
 .pressdetail{
     font-family: sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    font-size: large;
 }
