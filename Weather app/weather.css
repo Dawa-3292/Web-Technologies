@@ -1,5 +1,6 @@
 .main{
     width: 90%;
+    height: auto;
     max-width: 600px;
     background-image: linear-gradient(120deg,#00feba,#5b548a);
     padding: 50px 40px;
@@ -82,6 +83,8 @@ button{
     position: relative;
 }
 #humeimg{
+    display: block;
+    margin: 0 auto;
     width: 60px;
     height: 60px;
 }
@@ -105,6 +108,8 @@ button{
     position: relative;
 }
 #windimg{
+    display: block;
+    margin: 0 auto;
     width: 60px;
     height: 60px;
 }
@@ -128,6 +133,8 @@ button{
     position: relative;
 }
 #pressureimg{
+    display: block;
+    margin: 0 auto;
     width: 60px;
     height: 60px; 
 }
